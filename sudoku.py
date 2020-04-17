@@ -234,7 +234,7 @@ def forward_check(remaining_values, row, col, value):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser("Sudoku solver using backtracking and forward-checking algorithms")
+    parser = argparse.ArgumentParser(description="Sudoku solver using backtracking and forward-checking algorithms")
     parser.add_argument("sudoku", help="a line of text representing sudoku board, 81 characters with . representing an "
                                       "empty square, example:\n"
                                       "......2.6...7....8.5......36.1.5.32.....37.....2......9...7......36..4915..81....")
